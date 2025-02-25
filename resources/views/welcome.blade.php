@@ -1227,15 +1227,15 @@
                         <nav aria-label="Global">
                             <ul class="flex items-center gap-6 text-sm">
                                 <li>
-                                    <a class="text-white transition hover:text-teal-600" href="#"> Beranda </a>
+                                    <a class="text-white transition hover:text-teal-600" href="#beranda"> Beranda </a>
                                 </li>
 
                                 <li>
-                                    <a class="text-white transition hover:text-teal-600" href="#"> Program </a>
+                                    <a class="text-white transition hover:text-teal-600" href="#program"> Program </a>
                                 </li>
 
                                 <li>
-                                    <a class="text-white transition hover:text-teal-600" href="#"> Tentang Kami </a>
+                                    <a class="text-white transition hover:text-teal-600" href="#tentangkami"> Tentang Kami </a>
                                 </li>
                             </ul>
                         </nav>
@@ -1273,13 +1273,13 @@
                 <nav aria-label="Mobile">
                     <ul class="flex flex-col items-center gap-4 py-4">
                         <li>
-                            <a class="text-white transition hover:text-teal-600" href="#"> Beranda </a>
+                            <a class="text-white transition hover:text-teal-600" href="#beranda"> Beranda </a>
                         </li>
                         <li>
-                            <a class="text-white transition hover:text-teal-600" href="#"> Program </a>
+                            <a class="text-white transition hover:text-teal-600" href="#program"> Program </a>
                         </li>
                         <li>
-                            <a class="text-white transition hover:text-teal-600" href="#"> Tentang Kami </a>
+                            <a class="text-white transition hover:text-teal-600" href="#tentangkami"> Tentang Kami </a>
                         </li>
                     </ul>
                     <div class="flex flex-col items-center gap-4 py-4">
@@ -1300,7 +1300,7 @@
         </nav>
     </header>
     <main>
-    <section class="relative bg-[#49BBBD] py-16 min-h-screen">
+    <section id="beranda" class="relative bg-[#49BBBD] py-16 min-h-screen">
         <div class="container mx-auto flex flex-col md:flex-row items-center gap-2">
             <div class="md:w-1/2 text-white text-center md:text-left">
                 <h1 class="text-4xl font-bold mb-4"><span class="text-[#F48C06]">Belajar</span> Lebih Mudah dan Menyenangkan Bersama Rumah Pintar Nusantara</h1>
@@ -1322,7 +1322,7 @@
             <h1 class="text-2xl text-white font-bold">{{ $remainingQuotaMessage }}</h1>
         </div>
     </section>
-    <section class="py-16 bg-white">
+    <section id="program" class="py-16 bg-white">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-bold mb-4"><span class="text-[#00CBB8]">Program</span><span class="text-[#2F327D]"> Kami</span></h2>
             <p class="mb-12 text-center text-[#696984]">Rumah Pintar Nusantara menyediakan berbagai program pembelajaran yang dirancang untuk meningkatkan kemampuan akademik siswa dengan metode yang interaktif dan menyenangkan. Kami menawarkan berbagai kelas yang disesuaikan dengan kebutuhan belajar siswa, mulai dari dasar hingga tingkat lanjut.</p>
@@ -1357,7 +1357,7 @@
             </div>
         </div>
     </section>
-    <section class="relative bg-white py-16">
+    <section id="tentangkami" class="relative bg-white py-16">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-bold mb-4"><span class="text-[#2F327D]">Manfaat dari</span> <span class="text-[#00CBB8]">Rumah Pintar Nusantara</span></h2>
             <p class="mb-8 text-[#696984]">Rumah Pintar Nusantara adalah program kolaborasi antara Nusantara Infrastructure dan Human Initiative melalui inisiatif Home Children Center (HOME). Program ini didirikan sebagai rumah singgah ramah anak yang bertujuan untuk pemenuhan hak anak dan perlindungan mereka. Lebih dari sekadar tempat belajar, Rumah Pintar Nusantara juga berfungsi sebagai:</p>
